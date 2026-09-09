@@ -4,6 +4,8 @@ Small project asking a simple question: when you steer a language model using a 
 autoencoder feature, does anything about that feature predict whether the steering
 will mess up unrelated behavior? Or is it basically a coin flip until you try it.
 
+(NOTE: anyone getting confused about the 0% loads, that does not mean 0% (or nothng) loaded, it is simply a rendering artifact, and does not distrub the eperiment - all json's and model weights were loaded properly, and a re-run should hopefully be sufficient proof)
+
 ## Setup
 
 GPT-2 small, a pretrained SAE on the residual stream (from SAELens, the `gpt2-small-res-jb`
